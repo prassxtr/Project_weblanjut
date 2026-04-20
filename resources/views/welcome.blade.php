@@ -218,10 +218,6 @@
             </main>
         </div>
 
-        <div class="fun">
-            <h1>ini adalah sebuah H1</h1>
-        </div>
-
         @if (Route::has('login'))
             <div class="h-14.5 hidden lg:block"></div>
         @endif
