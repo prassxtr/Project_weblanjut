@@ -9,7 +9,8 @@
         <!-- Tengah (Menu) -->
         <nav class="space-x-6">
             <a href="/" class="text-gray-700 hover:text-green-500">Home</a>
-            <a href="/Donasi" class="text-gray-700 hover:text-green-500">Donasi</a>
+            {{-- <a href="/Donasi" class="text-gray-700 hover:text-green-500">Donasi</a>   --}}
+            <a href="{{ route('campaign.index') }}" class="text-gray-700 hover:text-green-500">Campaign</a>
             <a href="/Profile" class="text-gray-700 hover:text-green-500">Profile</a>
             <a href="/kontak" class="text-gray-700 hover:text-green-500">Kontak</a>
         </nav>
